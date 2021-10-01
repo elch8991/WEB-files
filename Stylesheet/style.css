@@ -2,73 +2,86 @@
 /*comment*/
 h1{
   font-size: 6vw;
-  font-family:"Lora";
+  font-family:"Vidaloka";
+  padding-left: 10px;
   font-weight:bold;
-  color: #011936
+  color: #BF4E30;
 
 }
 
 h2{
-  font-size: 2vw;
-  font-family:"Lora";
-  color: #F96E46
+  font-size: 4vw;
+  font-family:"Vidaloka";
+  margin-bottom: 8px;
+  color: #BF4E30;
 }
 
 h3{
-  font-family:"Lora";
+  font-family:"Vidaloka";
   font-weight:bold;
   font-size: 25px;
+  color: #BF4E30;
 }
 
 h4{
-  font-family:"Lora";
+  font-family:"Vidaloka";
   font-size:15px;
+  font-weight:bold;
+  color: #BF4E30;
 }
 body{
   font-family:"Roboto";
-  font-size:15px;
+  font-size:20px;
+  color: #032B43;
 }
 
 img{
-  border:dotted 5px #57C4E5;
+  border:dotted 10px #FCF7FF;
+  background: 60px #BF4E30;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
-  padding: 5px;
+  padding: 40px;
 
 }
 
 hr{
-  border:solid #F96E46 20px;
+  border:solid #CC3F0C 20px;
 }
 .lfix{
   margin-left:40px;
 }
+
+#image {
+  width: 43vw;
+  margin-left: 25px;
+  background-color: #BF4E30;
+}
 #title {
-  background-color: #E4D9FF;
-  border:groove 2px #57C4E5;
+  background-color: #FCF7FF;
+  border:groove 6px #00A6ED;
   padding: 5px;
 
 }
 
 #aboutme{
-  border:groove 2px #57C4E5;
-  background: #E4D9FF;
+  border:groove 6px #00A6ED;
+  background: #FCF7FF;
   margin-top: 2vw;
   margin-right: 40vw;
   padding-left: 3vw;
 }
 
 #section2{
-    border:groove 2px #57C4E5;
-    background: #E4D9FF;
+    border:groove 6px #00A6ED;
+    background: #FCF7FF;
     margin-top: 2vw;
     margin-right: 40vw;
     padding-left: 3vw;
 }
 #section3{
-    border:groove 2px #57C4E5;
-    background: #E4D9FF;
+    border:groove 6px #00A6ED;
+    background: #FCF7FF;
     margin-top: 2vw;
     margin-right: 40vw;
     padding-left: 3vw;
@@ -76,5 +89,5 @@ hr{
 
 
 #link{
-  color: #F96E46;
+  color: #00A6ED;
 }
