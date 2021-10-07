@@ -67,17 +67,6 @@ button:hover{
   border:groove #00A6ED 3px;
 }
 
-a:link{
-  color: #00A6ED;
-}
-a:active{
-  color: #CC3F0C
-}
-a:hover{
-  font-size: 150%;
-  color: #CC3F0C
-}
-
 #image {
   width: 43vw;
   margin-left: 25px;
