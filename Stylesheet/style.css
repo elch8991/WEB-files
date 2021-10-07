@@ -54,7 +54,8 @@ hr{
 button{
   background-color: #FFB400;
   font-family: "Roboto";
-  font-size:10px;
+  font-size:15px;
+  font-style: strong;
   color: #032B43;
   margin-bottom: 5px;
   padding: 5px 15px;

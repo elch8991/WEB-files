@@ -56,11 +56,15 @@ for linked button -->
   <script>
     console.log("javascript working");
     document.getElementById("mybutton2").addEventListener("click", clickbutton);
-
+    document.getElementById("name").addEventListener("click", titleclick);
     function clickbutton(){
       document.getElementById("portfolio").innerHTML = "Portfolio Work";
     }
 
+    function titleclick(){
+      alert("you clicked me!")
+      document.getElementById("name").innerHTML = "Welcome to my site!";
+    }
   </script>
 
 </body>
