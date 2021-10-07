@@ -6,7 +6,6 @@ h1{
   padding-left: 10px;
   font-weight:bold;
   color: #BF4E30;
-
 }
 
 h2{
@@ -52,6 +51,33 @@ hr{
   margin-left:40px;
 }
 
+button{
+  background-color: #FFB400;
+  font-family: "Roboto";
+  font-size:10px;
+  color: #032B43;
+  padding: 5px 15px;
+  border:groove #00A6ED 3px;
+}
+button:active{
+  background-color: #BF4E30;
+  color: #F1FFE7;
+}
+button:hover{
+  border:groove #00A6ED 3px;
+}
+
+a:link{
+  color: #00A6ED;
+}
+a:active{
+  color: #CC3F0C
+}
+a:hover{
+  font-size: 150%;
+  color: #CC3F0C
+}
+
 #image {
   width: 43vw;
   margin-left: 25px;
@@ -86,7 +112,6 @@ hr{
     margin-right: 40vw;
     padding-left: 3vw;
 }
-
 
 #link{
   color: #00A6ED;

@@ -46,13 +46,21 @@
   </section>
 
   <section id="section3">
-    <h2>Portfolio Work</h2>
-    <ul>
-      <li><a href="Week1/index.html">Week 1 picture page</a>
-      <li><a href="Week2/index.html">Week 2 Encyclopedia page</a>
-      <li><a href="https://www.figma.com/file/MJDamp8XXYhuA2iL345M5p/Week-3?node-id=0%3A1"> Week 3 Figma page</a>
-    </ul>
+    <h2 id="portfolio"> </h2>
+    <button id="mybutton2"> Looking for more?</button>
+<!-- Referenced: https://stackoverflow.com/questions/5025941/is-there-a-way-to-get-a-button-element-to-link-to-a-location-without-wrapping
+for linked button -->
+    <button onclick="window.location='Week6/index.html';">Table of Contents</button>
   </section>
+
+  <script>
+    console.log("javascript working");
+    document.getElementById("mybutton2").addEventListener("click", clickbutton);
+    function clickbutton(){
+      alert("you pushed the button!")
+      document.getElementById("portfolio").innerHTML = "Portfolio Work";
+    }
+  </script>
 
 </body>
 
