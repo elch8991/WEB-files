@@ -56,6 +56,7 @@ button{
   font-family: "Roboto";
   font-size:10px;
   color: #032B43;
+  margin-bottom: 5px;
   padding: 5px 15px;
   border:groove #00A6ED 3px;
 }
