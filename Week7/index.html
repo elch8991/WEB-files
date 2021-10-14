@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Maker</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Scheherazade+New:wght@700&display=swap"
+</head>
+<body>
+<section id="sectionh">
+<h1> Welcome to the inspiration station!</h1>
+</section>
+
+<section id="section1">
+<h2 id = "inspoText"> Click the button to get inspired!</h1>
+<button id="quotebutton">Get Inspired</button>
+</section>
+
+<script>
+  console.log("javascript working");
+  const quotes = ["success is not final, failure is not fatal: it is the courage to continue that counts. -Winston Churchhill", "Believe you can and you're halfway there. -Theodore Roosevelt", "What you get by achieving your goals is not as important as what you become by achieving your goals. -Zig Ziglar", "When you have a dream, you've got to grab it and never let go. -Carol Burnett", "Just don't give up trying to do what you really want to do. Where there is love and inspiration, I don't think you can go wrong. -Ella Fitzgerald", "Life is like riding a bicycle. To keep your balance, you must keep moving. -Albert Einstein"];
+
+  let quotecount = 0;
+
+  document.getElementById("quotebutton").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("inspoText").innerHTML = quotes[quotecount];
+    if(quotecount>=5){
+      quotecount = 0;
+    }else{
+      quotecount++;
+  }
+  }
+</script>
+
+</html>
