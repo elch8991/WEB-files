@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Self Care Menu</title>
+  <link rel="stylesheet" href ="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section id="forrest">
+  <h1 id="greeting"> Good Day </h1>
+  <img alt="Rain forrest photograph" src="/assets/Forrest Photo.jpeg" id="forrestimg">
+</section>
+
+<section id="info">
+  <h2 id="dayWeek">Happy </h2>
+</section>
+
+<section id = "checkIn">
+  <h3> Let's check in: </h3>
+  <h4> Start with a deep breath in. </h4>
+  <p> Deep breath out.</p>
+<section id = "grad">
+  <p> what are three things you are grateful for today? </p>
+
+  <form id="grateful" >
+    <input type="text" id="graditude" placeholder="Type your answer here." />
+  </form>
+  <!-- reference: https://www.w3schools.com/js/tryit.asp?filename=tryjs_form_submit
+  reference: https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/-->
+</section>
+<section id = "feelingQ">
+  <h3> How are you feeling? </h3>
+</section>
+<section id = "feeling">
+  <div>
+    <button class ="feels" onclick="select('Energized')">
+      <p>Energized</p>
+    </button>
+
+    <button class = "feels" onclick="select('Drained')">
+      <p>Drained</p>
+    </button>
+
+    <button class = "feels" onclick="select('Overwhelmed')">
+      <p>Overwhelmed</p>
+    </button>
+  </div>
+
+  <div id = "flex">
+    <button class = "feels" onclick="select('Joyful')">
+      <p>Joyful</p>
+    </button>
+
+    <button class = "feels" onclick="select('Pensive')">
+      <p>Pensive</p>
+    </button>
+
+    <button class = "feels" onclick="select('Sad')">
+      <p>Sad</p>
+    </button>
+
+  </div>
+
+<section id = "activity">
+  <h2> You chose:</h2>
+  <h3 id = selection>  </h3>
+</section>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+
+
+</html>
