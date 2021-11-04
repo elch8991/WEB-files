@@ -22,24 +22,29 @@ h4{
 
 }
 
+#checkIn h3{
+  color:#0B3142;
+}
+#change{
+  color: #0B3142;
+}
 #greeting{
-  z-index: 3;
-  margin-right: 900px;
-  padding-left: 70px;
-  padding-right: 70px;
+
+  padding-left: 100px;
 }
 #forrest{
   width:100vw;
-  height: 50vh;
+  height: 70vh;
   overflow: hidden;
-  margin: 0px;
+  margin-top: 0px;
   padding: 0px;
+
 }
 #forrestimg{
   width:100vw;
   position:relative;
-  bottom: 400px;
-
+  bottom: 1000px;
+  z-index: -1;
 }
 #forrest h1{
   z-index: 2;
@@ -80,18 +85,22 @@ h4{
 #graditude {
   background-color: #FFFFFF;
   border: 0;
-  width: 400px;
+  width: 1000px;
+  height: 200px;
   font-family: Poppins;
   margin: auto;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 60px;
+  margin-top: 20px;
   position:static;
 
 }
 #grateful{
   z-index: -3;
-  margin: auto;
+  margin-left: 1100px;
   width: 400px;
+}
+#selection{
+  color: #FF570A;
 }
 
 input[type=text]{
@@ -119,7 +128,6 @@ input[type=text]{
   background:#273B09;
 }
 
-
 #feelingQ h3{
   font-size: 3vw;
   margin-left: 460px;
@@ -130,4 +138,46 @@ input[type=text]{
   font-size: 3vw #33A1FD;
   font-family: "Playfair Display";
   font-weight: bold;
+}
+
+#options{
+  display:flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  width: 6vw;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:flex-start;
+  border: 0;
+  margin: auto;
+  padding-left: : 300px;
+  padding-right: 300px;
+  margin-left: 400px;
+}
+#quote{
+  color: #FFFFFF;
+  font-size: 2vw;
+  font-family: Poppins;
+  background-color: #33A1FD;
+  margin-left: 50px;
+  padding: 300px;
+}
+
+#activity{
+  margin: 1vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  font-family: Poppins;
+  background-color: #33A1FD;
+  padding:300px;
+}
+
+#resource{
+  margin: 1vw;
+  color: #FFFFFF;
+  font-size: 2vw;
+  margin: 1vw;
+  font-family: Poppins;
+  background-color: #33A1FD;
+  padding: 300px;
 }
