@@ -1,8 +1,7 @@
-console.log("hello world")
+console.log("hello world");
 
 //Name Collection
 var guestName = prompt("Please enter your name");
-var ripple = false;
 if (guestName!= null) {
   document.getElementById("greeting").innerHTML = "Good day " + guestName + ",";
   daySelect = true;
@@ -16,12 +15,6 @@ if (daySelect === true) {
   document.getElementById("dayWeek").innerHTML = "Happy " + theDay + ",";
 }
 
-function threeGrads(){
-  document.getElementById("grateful").submit();
-
-}
-
-//Display none
 function select(emotion){
   console.log("clicked");
   console.log(emotion);
