@@ -26,6 +26,12 @@
   justify-content: space-around;
   width: 100%;
 }
+body{
+  background-image:url("https://images.unsplash.com/photo-1635412139177-f2ad052b3cba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
+  background-repeat: no-repeat;
+  background-size:auto;
+  background-position: center;
+}
 h1{
   font-family: "Poppins";
   color: #DC0073;
@@ -75,11 +81,9 @@ nav a{
 
 }
 #title h1{
+  margin-left: 400;
   z-index:1;
   position: absolute;
-  margin-top:450px;
-  margin-left: 40px;
-  margin-right: 100px;
   font-weight: 600;
   background-color: #FFFBFF;
 }
