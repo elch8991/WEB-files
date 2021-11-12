@@ -1,39 +1,58 @@
-@media screen and (min-width:800px){
+@media screen and (min-width:700px){
   #title h1{
+    text-align: center;
     font-size:75px;
-  }
+    margin-top: 100px;
+}
+    #title{
+      height: 15em;
+      margin-bottom: 5px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    button{
+      font-family:"Poppins";
+      font-size: 20px;
+      padding: 5px;
+      color: #FFFFFF;
+      width: 175px;
+      height: 175px;
+      background: #DC0073;
+      border-color: #FFFFFF;
+      border-width: thick;
+      border-radius: 50%;
+    }
 }
 >700px
 <701px
 
-@media screen and (min-width:801px){
+@media screen and (max-width:701px){
   #title h1{
-    font-size:30px;
+    text-align: center;
+    font-size:40px;
+    position: absolute; top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  #title{
+    height: 100px;
+    margin-bottom: 5px;
   }
 }
-#navBar {
-  height:100px;
+
+#navBar{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
+
 .options{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
+align-items: center;
+
 }
-button{
-  font-family:"Poppins";
-  font-size: 20px;
-  padding: 5px;
-  color: #FFFFFF;
-  width: 175px;
-  height: 175px;
-  background: #DC0073;
-  border-color: #FFFFFF;
-  border-width: thick;
-  border-radius: 50%;
-}
+
+
 
 body{
   background-image:url("https://images.unsplash.com/photo-1635412139177-f2ad052b3cba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80");
@@ -63,6 +82,18 @@ h4{
   color: #DC0073;
 
 }
+button{
+  font-family:"Poppins";
+  font-size: 18px;
+  padding: 5px;
+  color: #FFFFFF;
+  width: 170px;
+  height: 170px;
+  background: #DC0073;
+  border-color: #FFFFFF;
+  border-width: thick;
+  border-radius: 50%;
+}
 
 p{
   font-size: 30px;
@@ -70,19 +101,11 @@ p{
   color: #DD6E42;
 }
 
-
-#title{
-  height: 60vh;
-  margin-bottom: 5px;
-
-
-}
 #title h1{
-  margin-left: 100px;
-  margin-top: 100px;
-  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-bottom: 20px;
   z-index:1;
-  position: absolute;
+  /* position: absolute; top: 0; */
   font-weight: 600;
   background-color: #FFFBFF;
 }
