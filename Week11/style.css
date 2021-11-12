@@ -1,9 +1,4 @@
 @media screen and (min-width:800px){
-  #title img{
-    width: 100vw;
-    position: relative;
-    display:block;
-  }
   #title h1{
     font-size:75px;
   }
@@ -16,7 +11,9 @@
     font-size:30px;
   }
 }
-
+#navBar {
+  height:100px;
+}
 .options{
   display: flex;
   flex-direction: column;
@@ -75,14 +72,15 @@ p{
 
 
 #title{
-  width: 100vw;
   height: 60vh;
+  margin-bottom: 5px;
+
 
 }
 #title h1{
   margin-left: 100px;
   margin-top: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   z-index:1;
   position: absolute;
   font-weight: 600;
