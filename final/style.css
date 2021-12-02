@@ -1,0 +1,51 @@
+h1{
+  font-family: "Bebas Neue";
+  color: #000000;
+}
+h2{
+  font-family: "Bebas Neue";
+  color: #000000;
+}
+h3{
+  font-family: "Bebas Neue";
+  color: #000000;
+}
+h4{
+  font-family: "Bebas Neue";
+  color: #000000;
+}
+h5{
+  font-family: "Bebas Neue";
+  color: #000000;
+}
+h6{
+  font-family: "Bebas Neue";
+  color: #000000;
+}
+
+body{
+  font-family: "Playfair Display";
+  color: #000000;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(100% - 50vw);
+}
+
+nav a{
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #1f1b1b;
+}
+
+#photo{
+  width: 30vw;
+
+}
