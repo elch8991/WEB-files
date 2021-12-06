@@ -37,15 +37,36 @@ nav{
 }
 
 nav a{
-  font-family: arial;
+  font-family: "Playfair Display";
   font-size: 20px;
   font-weight: 300;
   margin-left: 50px;
   text-decoration: none;
   color: #1f1b1b;
 }
-
-#photo{
+img{
   width: 30vw;
+}
+#photoText{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+#resume{
+  width:100%;
+  height: 100%;
+  align-items: center;
+
+}
+
+
+.firstPage{
+  margin-left: 60px;
 
 }
