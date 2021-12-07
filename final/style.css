@@ -47,6 +47,10 @@ nav a{
 img{
   width: 30vw;
 }
+embed{
+  width:100%;
+  height: 100%;
+}
 #photoText{
   display: flex;
   flex-flow: row;
@@ -58,12 +62,10 @@ img{
   margin-right: 50px;
 
 }
-#resume{
-  width:100%;
-  height: 100%;
+ #resume{
   align-items: center;
 
-}
+} 
 
 
 .firstPage{
