@@ -2,6 +2,7 @@
 h1{
   font-family: "Bebas Neue";
   color: #000000;
+  font-size: 4vw;
 }
 h2{
   font-family: "Bebas Neue";
@@ -29,17 +30,18 @@ body{
   color: #000000;
 }
 
+/* Class code referenced */
 nav{
   display:flex;
   width: 50vw;
   justify-content: right;
   flex-wrap: wrap;
-  margin: 30px auto 30px calc(100% - 50vw);
+  margin: 1vw 1.5vw 30px calc(100% - 50vw);
 }
 
 nav a{
   font-family: "Playfair Display";
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: 300;
   margin-left: 50px;
   text-decoration: none;
@@ -108,11 +110,6 @@ button{
 }
 /* reference: https://code-boxx.com/image-zoom-css-javascript/ */
 .icons{
-  /* display:flex;
-  justify-content: flex-start;
-  flex-wrap:nowrap;
-  text-align: right;
-  flex-direction: row; */
   width: 2vw;
   height: 2vw;
   margin-top: 1vw;
