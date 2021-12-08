@@ -52,6 +52,10 @@ nav a:hover{
 img{
   width: 30vw;
 }
+button{
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+}
 
 #photoText{
   display: flex;
@@ -70,7 +74,7 @@ img{
 }
 
 #me{
-  
+
 }
 .cardLay{
   display:flex;
@@ -104,21 +108,30 @@ img{
 }
 /* reference: https://code-boxx.com/image-zoom-css-javascript/ */
 .icons{
+  /* display:flex;
+  justify-content: flex-start;
+  flex-wrap:nowrap;
+  text-align: right;
+  flex-direction: row; */
+  width: 2vw;
+  height: 2vw;
+  margin-top: 1vw;
+}
+.foot{
   display:flex;
   justify-content: flex-start;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
   text-align: right;
-
+  flex-direction: row;
+  gap: 1vw;
 }
-/* .foot{
-  display:flex;
-  gap:10vw;
-  flex-wrap:wrap;
-  text-align: center;
-} */
 .icons img{
-  width: 5%;
+  width: 2vw;
+  height: 2vw;
+  text-align: center;
 }
 .icons a{
-  width: 40%;
+  width: 2vw;
+  height: 2vw;
+  text-align: center;
 }
