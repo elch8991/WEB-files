@@ -1,3 +1,4 @@
+
 h1{
   font-family: "Bebas Neue";
   color: #000000;
@@ -67,6 +68,10 @@ img{
 #resume{
   text-align:center;
 }
+
+#me{
+  
+}
 .cardLay{
   display:flex;
   gap:10vw;
@@ -100,7 +105,20 @@ img{
 /* reference: https://code-boxx.com/image-zoom-css-javascript/ */
 .icons{
   display:flex;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+  text-align: right;
+
+}
+/* .foot{
+  display:flex;
+  gap:10vw;
   flex-wrap:wrap;
   text-align: center;
-  width:30%;
+} */
+.icons img{
+  width: 5%;
+}
+.icons a{
+  width: 40%;
 }
